@@ -1,0 +1,19 @@
+$theme-colors: (
+    "primary": #BA2C73
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+    background-color: #E8D6CB;
+    // background: rgb(232, 214, 203);
+    // background: linear-gradient(42deg, rgba(232, 214, 203, 1) 59%, rgba(249, 244, 241, 1) 100%);
+    background-attachment: fixed;
+    color: #071013;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.line {
+    border: 2px solid #071013;
+    transition: all 0.2s;
+}
